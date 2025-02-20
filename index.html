@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css>
+</head>
+<body>
+  
+  <nav class="nav-bar close">
+    <i class="fas fa-align-justify toggle"></i>
+     <ul class="nav-bar__list">
+      <li class="nav-bar__items"><a href="#" class="nav-bar__links"><i class="fa fa-home icon"></i><span class="text ">Home</span></a></li>
+      <li class="nav-bar__items"><a href="#" class="nav-bar__links"><i class="fa fa-message icon"></i><span class="text">Menu</span></a></li>
+      <li class="nav-bar__items"><a href="#" class="nav-bar__links"><i class="fa fa-cutlery icon"></i><span class="text">My Orders</span></a></li>
+      <li class="nav-bar__items"><a href="#" class="nav-bar__links"><i class="fa fa-user o icon"></i><span class="text">My Profile</span></a></li>
+      <li class="nav-bar__items"><a href="#" class="nav-bar__links"><i class="fa fa-map-marker icon"></i><span class="text">Delivery Address</span></a></li>
+      <li class="nav-bar__items"><a href="#" class="nav-bar__links"><i class="fa fa-credit-card-alt icon"></i><span class="text">Payment Method</span></a></li>
+      <li class="nav-bar__items"><a href="#" class="nav-bar__links"><i class="fa fa-message icon"></i><span class="text">Contact Us</span></a></li>
+      <li class="nav-bar__items"><a href="#" class="nav-bar__links"><i class="fa fa-cog icon"></i><span class="text">Settings</span></a></li>
+      <li class="nav-bar__items"><a href="#" class="nav-bar__links"><i class="fa fa-question icon"></i><span class="text">Help & FAQs</span></a></li>
+      <li class="nav-bar__items"><a href="#" class="nav-bar__links"><i class="fa fa-sign-out icon"></i><span class="text">Log out</span></a></li>
+      <li class="mode">
+        <div class="moon-sun">
+          <i class="fa fa-moon iconm"></i>
+          <i class="fa fa-sun iconm"></i>
+        </div>
+        <span class="mode-text">dark mode</span>
+        <div class="toggle-switch">
+          <span class="switch"></span>
+        </div>
+      </li>
+     </ul>
+     
+     <div class="legal">
+      &copy;2023 By Cravecraze. All Right Researved.
+     </div>
+  </nav>
+
+    <div class="container">
+        <header class="header">
+            <div class="logo"><Span>Crave</Span>Craze<i class="fa fa-cutlery"></i></div>
+            <div class="search-container">
+                <form action="#" id="search-form">
+                    <input type="text" id="input" placeholder="find your food here">
+                      <i class="fa fa-search" id="search-icon"></i>
+                      <div id="search-results">
+                        <ul class="list"> </ul>
+                       </div>
+                 </form>
+                
+            </div>
+          
+
+           <div class="user-nav">
+            <div class="icon-box">
+                <i class="fa fa-bookmark user-icon"></i>
+                <span class="notification">7</span">
+              </div>
+              <div class="icon-box">
+                <i class="fa fa-comments user-icon"></i>
+                <span class="notification">13</span">
+              </div>
+              <div class="user-box">
+             <img src="image/user.jpg" alt="user-image" id="user-photo">
+               <span>Nicholas</span">
+              </div>
+           </div>   
+
+        </header>
+        
+            <main class="content">
+              <div class="view">
+                <div class="hero">
+                  <div class="hero-content">
+                    <h1 class="hero-text">Delicious Food Delivered to Your Doorstep</h1>
+                    <p class="hero-subtext">Enjoy our special bundle for $25</p>
+                    <button class="hero-btn">Order now <i class="fa fa-cart-arrow-down hero-icon"></i></button>
+                  </div>
+                  <div class="hero-image">
+                    <img src="image/Spicy-Tuna.png" alt="categories-photo" id="heroline">
+                  </div>
+               </div>
+                  <div class="category">
+                     <h1 class="category-text">categories</h4>
+                  </div>
+                  <div class="categories-box">
+                    <div class="categories">
+                      <img src="image/appetizer.png" alt="categories-photo" id="categories-image">
+                      <p class="categories-text">Appetizers</p>
+                    </div>
+                    <div class="categories">
+                      <img src="image/Sandwiches.png" alt="categories-photo" id="categories-image">
+                      <p class="categories-text">Sandwiches</p>
+                    </div>
+                    <div class="categories">
+                      <img src="image/veggies.png" alt="categories-photo" id="categories-image">
+                      <p class="categories-text">viggies</p>
+                    </div>
+                    <div class="categories">
+                      <img src="image/Beverages.png" alt="categories-photo" id="categories-image">
+                      <p class="categories-text">Beverages</p>
+                    </div>
+                    <div class="categories">
+                      <img src="image/dessert.png" alt="categories-photo" id="categories-image">
+                      <p class="categories-text">desserts</p>
+                    </div>
+                    <div class="categories">
+                      <img src="image/salad.png" alt="categories-photo" id="categories-image">
+                      <p class="categories-text">salad</p>
+                    </div>
+                    <div class="categories">
+                      <img src="image/seafood.png" alt="categories-photo" id="categories-image">
+                      <p class="categories-text">seafood</p>
+                    </div>
+                  </div>
+  
+                  <div class="menu">
+                    <h1 class="menu-headings">Most Favourite Items</h4>
+                 </div>
+                 <div class="menu-box">
+                   <div class="menu-items" id="item1">
+                    
+                     <img src="image/air-fryer-mozzarella-stick.jpeg" alt="menu-photo" id="menu-image">
+                     <h4 class="menu-text">Mozzarella-Stick <i class="fa fa-heart menu-icon"></i></h4>
+                     <p class="menu-subtext">These culinary taste buds with each crunchy bite</p>
+                     <h4 class="menu-price">$300.20<button class="menu-btn"><i class="fa fa-angle-right price-icon"></i></button></h4>
+                   </div>
+                   <div class="menu-items" id="item2">
+                    <img src="image/Hamburger.jpg" alt="menu-photo" id="menu-image">
+                    <h4 class="menu-text">Hamburger <i class="fa fa-heart menu-icon"></i></h4>
+                    <p class="menu-subtext"> A flavour between buns with hues of satisfaction</p>
+                    <h4 class="menu-price">$300.20 <button class="menu-btn"><i class="fa fa-angle-right price-icon"></i></button></h4>
+                  </div>
+                   <div class="menu-items" id="item3">
+                    <img src="image/Eggs Benedict.jpg" alt="menu-photo" id="menu-image">
+                    <h4 class="menu-text">Egg Benedict <i class="fa fa-heart menu-icon"></i></h4>
+                    <p class="menu-subtext">Embark on a breakfast symphony fit for royalty </p>
+                    <h4 class="menu-price">$300.20 <button class="menu-btn"><i class="fa fa-angle-right price-icon"></i></button></h4>
+                  </div>
+                  <div class="menu-items" id="item4">
+                    <img src="image/pizza.jpg" alt="menu-photo" id="menu-image">
+                    <h4 class="menu-text">Pizza <i class="fa fa-heart menu-icon"></i></h4>
+                    <p class="menu-subtext">Behold a circle of delight with a vibrant of flavors</p>
+                     <h4 class="menu-price">$300.20 <button class="menu-btn"><i class="fa fa-angle-right price-icon"></i></button></h4>
+                  </div>
+                  <div class="menu-items" id="item5">
+                    <img src="image/caesar-salad.jpg" alt="menu-photo" id="menu-image">
+                    <h4 class="menu-text"> Caesar salad <i class="fa fa-heart menu-icon"></i></h4>
+                    <p class="menu-subtext">A symphony of classic flavors in every bite</p>
+                    <h4 class="menu-price">$300.20 <button class="menu-btn"><i class="fa fa-angle-right price-icon"></i></button></h4>
+                  </div>
+                  <div class="menu-items" id="item6">
+                    <img src="image/Pesto-and-Tomato-Bruschetta.jpg" alt="menu-photo" id="menu-image">
+                    <h4 class="menu-text">Bruschetta <i class="fa fa-heart menu-icon"></i></h4>
+                    <p class="menu-subtext">Crispy bread, fresh tomatoes oil—a bite-sized </p>
+                    <h4 class="menu-price">$300.20 <button class="menu-btn"><i class="fa fa-angle-right price-icon"></i></button></h4>
+                  </div>
+                  <div class="menu-items" id="item5">
+                    <img src="image/veg sandwich.jpg" alt="menu-photo" id="menu-image">
+                    <h4 class="menu-text"> Veg Sandwich <i class="fa fa-heart menu-icon"></i></h4>
+                    <p class="menu-subtext">A symphony of elegance flavors in every bite</p>
+                    <h4 class="menu-price">$300.20 <button class="menu-btn"><i class="fa fa-angle-right price-icon"></i></button></h4>
+                  </div>
+                  <div class="menu-items" id="item6">
+                    <img src="image/Yogurt-Parfait.jpg" alt="menu-photo" id="menu-image">
+                    <h4 class="menu-text">Yogurt Parfait <i class="fa fa-heart menu-icon"></i></h4>
+                    <p class="menu-subtext">Crispy bread, fresh tomatoes oil—a bite-sized </p>
+                    <h4 class="menu-price">$300.20 <button class="menu-btn"><i class="fa fa-angle-right price-icon"></i></button></h4>
+                  </div>
+                 </div>
+              </div>
+             
+              <div class="view-side">
+                  <div class="order-content">
+                    <h3 class="headings">Order Menu</h3>
+                    <p class="more">view all &rarr;</p>
+                  </div>
+                  <div class="order-box">
+                    <div class="order-items">
+                      <div class="order-subitem">
+                        <img src="image/french fries.jpg" alt="order-photo" id="order-image">
+                        <span class="order-caption">
+                          <h3 class="order-names">French Fries</h3>
+                          <p class="order-para">$7</p>
+                         </span>
+                      </div>
+                      <p class="order-amount">X2</p>
+                    </div>
+                    <div class="order-items">
+                      <div class="order-subitem">
+                        <img src="image/hamburger.jpg" alt="order-photo" id="order-image">
+                        <span class="order-caption">
+                          <h3 class="order-names">Hamburger</h3>
+                          <p class="order-para">$2.5</p>
+                         </span>
+                      </div>
+                      <p class="order-amount">X6</p>
+                    </div>
+                    <div class="order-items">
+                      <div class="order-subitem">
+                        <img src="image/Chicken-Wings.jpg" alt="order-photo" id="order-image">
+                        <span class="order-caption">
+                          <h3 class="order-names">Chicken Wings</h3>
+                          <p class="order-para">$4.29</p>
+                         </span>
+                      </div>
+                      <p class="order-amount">X10</p>
+                    </div>
+                  </div>
+                  <div class="total-order">
+                    <div class="total-list">
+                      <h5 class="total-sub">Sub-Total</h5>
+                      <p class="total-para">$270</p>
+                    </div>
+                    <div class="total-list">
+                      <h5 class="total-sub">Tax 10%(VAT included)</h5>
+                      <p class="total-para">$12</p>
+                    </div>
+                    <div class="total-list" id="discount">
+                      <h5 class="total-sub" >Discount 20%</h5>
+                      <p class="total-para">-$34</p>
+                    </div>
+                    <div class="total-list" id="total">
+                      <h5 class="total-sub" id="total-sub">Total</h5>
+                      <p class="total-para" id="total-para">$255</p>
+                    </div>
+                  </div>
+                  <h2 class="payment">Payment Method</h2>
+                  <div class="payment-container">
+                    <div class="payment-iconbox">
+                      <i class="fa fa-usd payment-icon" id="dollar"></i> 
+                      <h2 class="payment-text">Cash</h2>
+                    </div>
+                    <div class="payment-iconbox">
+                      <i class="fa fa-credit-card-alt payment-icon"></i> 
+                      <h2 class="payment-text">Debit Card</h2>
+                    </div>
+                    <div class="payment-iconbox">
+                      <i class="fa-solid fa-wallet payment-icon"></i> 
+                      <h2 class="payment-text">E-Wallet</h2>
+                    </div>   
+                  </div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199412.57638435115!2d-90.408616398364!3d38.65298434489645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                      1!3m3!1m2!1s0x87d8b4a9faed8ef9%3A0xbe39eaca22bbe05b!2sSt.%20Louis%2C%20MO%2C%20USA!5e0!3m2!1sen!2sng!4v1705094171289!5m2!1sen!2sng
+                      " style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <div class="driver-content">
+                    <div class="driver-subitem">
+                      <img src="image/driver.jpg" alt="driver-photo" id="driver-image">
+                      <span class="driver-caption">
+                        <h3 class="driver-names">Mr Raymond</h3>
+                        <p class="driver-para">My driver</p>
+                       </span>
+                    </div>
+                    <button class="driver-btn"><i class="fa fa-phone driver-icon"></i></button>
+                  </div>
+                  <div class="delivery-details">
+                    <div class="delivery-content">
+                      <span class="delivery-box"><button class="delivery-btn"><img src="image/delivery-icon.png" alt="delivery-photo" id="delivery-image"></button><h1 class="delivery-time">My Delivery Time</h1></span>
+                        <p class="delivery-text">20 Minutes</p>
+                    </div>
+                    <div class="delivery-content">
+                      <span class="delivery-box"><button class="delivery-btn"><img src="image/delivery-icon-2.png" alt="delivery-photo" id="delivery-image"></button><h1 class="delivery-time">My Delivery location</h1></span>
+                        <p class="delivery-text">123 Main Street,St. Louis, MO 63101, United States</p>
+                    </div>
+                  </div>
+              </div>  
+            </main>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
